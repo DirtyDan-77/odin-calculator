@@ -1,0 +1,31 @@
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    max-width: 400px;
+    font-size: 24px;
+}
+
+.display {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.digit,
+.operator {
+    width: 25px;
+    height: 25px;
+}
